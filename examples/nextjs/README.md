@@ -1,5 +1,7 @@
 # Next.js Demo
 
+> Difficulty: Intermediate (web app + approval flows)
+
 This example shows a basic example of how to use human-in-the-loop in a Next.js application.
 
 Right now it only uses a synchronous approach without streaming and storing in an in-memory DB.

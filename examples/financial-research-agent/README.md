@@ -1,5 +1,7 @@
 # Financial Research Agent
 
+> Difficulty: Advanced (domain-specific multi-agent workflow)
+
 This example demonstrates a multi-agent workflow that produces a short financial analysis report.
 
 The entrypoint in `main.ts` prompts for a query, then traces the run and hands control to `FinancialResearchManager`.

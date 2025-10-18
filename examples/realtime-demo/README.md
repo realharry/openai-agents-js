@@ -1,5 +1,7 @@
 # Realtime Demo
 
+> Difficulty: Intermediate → Advanced (realtime demo requiring token generation)
+
 This example is a small [Vite](https://vitejs.dev/) application showcasing the realtime agent API.
 
 1. Install dependencies in the repo root with `pnpm install`.

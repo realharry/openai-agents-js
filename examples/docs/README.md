@@ -1,5 +1,7 @@
 # Documentation Snippets
 
+> Difficulty: Beginner → Intermediate (varies by snippet)
+
 This directory contains small scripts used throughout the documentation. Run them with `pnpm` using the commands shown below.
 
 - `agents-basic-configuration.ts` – Configure a weather agent with a tool and model.

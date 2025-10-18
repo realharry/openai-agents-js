@@ -1,5 +1,7 @@
 # AI SDK Example
 
+> Difficulty: Intermediate (external SDK integration)
+
 This example shows how to run the Agents SDK with a model provided by the [AI SDK](https://www.npmjs.com/package/@ai-sdk/openai).
 
 The [ai-sdk-model.ts](./ai-sdk-model.ts) script:

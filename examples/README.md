@@ -78,6 +78,49 @@ pnpm start # or pnpm dev | pnpm run <script>
 
 - Any additional folders you find in `examples/` should have their own README files. This top-level README intentionally keeps summaries short — check the folder-level README for detailed instructions.
 
+## Start here (recommended learning path)
+
+If you're new to this repo and want a guided progression through the examples, start with the "Beginner" items and work toward the "Advanced" examples. Each item below is ordered roughly from simplest → more involved. Where possible the listed filenames point to single-file examples; others are folder entrypoints with their own README.
+
+Beginner (quick, minimal setup)
+
+- `examples/basic/hello-world.ts` (Beginner) — minimal agent/LLM call to learn the core runtime.
+- `examples/basic/chat.ts` (Beginner) — simple multi-turn conversational example.
+- `examples/basic/stream-text.ts` (Beginner) — streaming text responses.
+- `examples/basic/stream-items.ts` (Beginner) — streaming structured items.
+- `examples/basic/tools.ts` (Beginner) — first look at calling tools from an agent.
+
+Intermediate (state, lifecycle, structured outputs)
+
+- `examples/basic/agent-lifecycle-example.ts` and `examples/basic/lifecycle-example.ts` (Intermediate) — lifecycle hooks and orchestration.
+- `examples/basic/reasoning.ts` (Intermediate) — multi-step reasoning patterns.
+- `examples/basic/json-schema-output-type.ts` (Intermediate) — structured output and schema validation.
+- `examples/agent-patterns/agents-as-tools.ts` (Intermediate) — composing agents as tools.
+- `examples/agent-patterns/input-guardrails.ts` (Intermediate) — input sanitization and guardrails.
+
+Advanced (integrations, realtime, hosted flows)
+
+- `examples/tools/code-interpreter.ts` and `examples/tools/file-search.ts` (Advanced) — powerful tools that may need extra setup or permissions.
+- `examples/mcp/hosted-mcp-simple.ts` → `examples/mcp/hosted-mcp-human-in-the-loop.ts` (Advanced) — Model Context Protocol examples and hosted connectors.
+- `examples/realtime-next/` and `examples/realtime-twilio/` (Advanced) — realtime/production patterns and platform integrations.
+- `examples/research-bot/` and `examples/financial-research-agent/` (Advanced) — multi-agent orchestration and domain-specific examples.
+
+Quick suggested learning path (concrete)
+
+1. `examples/basic/hello-world.ts` → 2. `examples/basic/chat.ts` → 3. `examples/basic/stream-text.ts` → 4. `examples/basic/tools.ts`.
+Then: `examples/basic/agent-lifecycle-example.ts`, `examples/basic/reasoning.ts`, and `examples/basic/json-schema-output-type.ts`.
+
+Notes and caveats
+
+- Many advanced examples require external services, API keys, or platform-specific setup (Twilio, Vercel, hosted MCPs). Consult the README inside each example folder for exact instructions.
+- Streaming and realtime examples may require Node flags or environment setup for best results.
+
+Next steps you can take
+
+- Add difficulty badges (Beginner / Intermediate / Advanced) to each example folder's README so learners can scan quickly.
+- Create an `examples/START_HERE.md` with copy-paste `pnpm` commands and minimal env var examples for the beginner path.
+
+
 ## Contributing new examples
 
 If you add a new example folder:

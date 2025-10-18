@@ -1,5 +1,7 @@
 # Tool Integrations
 
+> Difficulty: Intermediate → Advanced (varies by tool)
+
 These examples demonstrate the hosted tools provided by the Agents SDK.
 
 ## Examples

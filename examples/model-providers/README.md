@@ -1,5 +1,7 @@
 # Model Providers Examples
 
+> Difficulty: Intermediate → Advanced (provider integration)
+
 This directory contains small scripts showing how to integrate custom model providers. Run them with `pnpm` using the commands shown below.
 
 - `custom-example-agent.ts` – Pass a model instance directly to an `Agent`.

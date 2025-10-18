@@ -1,5 +1,7 @@
 # Agent Pattern Examples
 
+> Difficulty: Intermediate
+
 This directory contains small scripts that demonstrate different agent patterns.
 Run them with `pnpm` using the commands shown below.
 

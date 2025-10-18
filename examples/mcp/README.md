@@ -1,5 +1,7 @@
 # Model Context Protocol Example
 
+> Difficulty: Advanced (requires MCP setup)
+
 This example demonstrates how to use the [Model Context Protocol](https://modelcontextprotocol.io/) with the OpenAI Agents SDK.
 
 `filesystem-example.ts` starts a local MCP server exposing the files inside `sample_files/`. The agent reads those files through the protocol and can answer questions about them. The directory includes:

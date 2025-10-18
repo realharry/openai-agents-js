@@ -1,5 +1,7 @@
 # Research Bot
 
+> Difficulty: Advanced (multi-agent orchestration)
+
 This example shows how to orchestrate several agents to produce a detailed research report.
 
 ## Files

@@ -1,5 +1,7 @@
 # Agent Handoffs
 
+> Difficulty: Intermediate
+
 This example shows how one agent can transfer control to another. The `index.ts` script sets up two English speaking assistants and a Spanish assistant. The second agent is configured with a handoff so that if the user requests Spanish replies it hands off to the Spanish agent. A message filter strips out tool messages and the first two history items before the handoff occurs. Run it with:
 
 ```bash

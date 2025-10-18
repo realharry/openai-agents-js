@@ -1,5 +1,7 @@
 # Realtime Twilio Integration
 
+> Difficulty: Advanced (requires Twilio number and tunneling)
+
 This example demonstrates how to connect the OpenAI Realtime API to a phone call using Twilio's Media Streams.
 The script in `index.ts` starts a Fastify server that serves TwiML for incoming calls and creates a WebSocket
 endpoint for streaming audio. When a call connects, the audio stream is forwarded through a

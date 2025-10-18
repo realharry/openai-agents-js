@@ -1,5 +1,7 @@
 # Realtime Next.js Demo
 
+> Difficulty: Advanced (realtime and WebRTC setup)
+
 This example shows how to combine Next.js with the OpenAI Agents SDK to create a realtime voice agent.
 
 ## Run the example

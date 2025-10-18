@@ -1,5 +1,7 @@
 # Basic Examples
 
+> Difficulty: Beginner
+
 This directory contains small scripts that demonstrate features of the Agents SDK.
 Run them with `pnpm` using the commands shown below.
 
